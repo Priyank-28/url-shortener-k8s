@@ -1,0 +1,10 @@
+# Never commit real secrets
+*.env
+.env*
+
+# Minikube local files
+.minikube/
+
+# OS noise
+.DS_Store
+Thumbs.db
