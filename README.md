@@ -15,6 +15,7 @@ kubectl get nodes   # should show minikube Ready
 
 ## Project Status
 - [x] Minikube cluster running
+- [x] url-shortener:v1 image built into Minikube
 - [ ] API Deployment + Service
 - [ ] ConfigMap + Secret
 - [ ] PostgreSQL + Redis
