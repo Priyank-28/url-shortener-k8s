@@ -23,3 +23,10 @@ spec:
       selfHeal: true
     syncOptions:
       - CreateNamespace=true
+  
+  ignoreDifferences:
+    - group: apps
+      kind: Deployment
+      name: url-api
+      jsonPointers:
+        - /spec/replicas
