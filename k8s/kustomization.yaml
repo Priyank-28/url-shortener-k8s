@@ -15,4 +15,4 @@ resources:
 
 images:
   - name: ghcr.io/priyank-28/url-shortener
-    newTag: latest
+    newTag: ea39b8b984a34a6d4fb15be52eba3c0aa4a8ded0
