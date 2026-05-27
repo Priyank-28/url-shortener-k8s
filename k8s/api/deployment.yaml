@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: url-api
-          image: url-shortener:v1
-          imagePullPolicy: IfNotPresent
+          image: ghcr.io/priyank-28/url-shortener:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 8000
           envFrom:
